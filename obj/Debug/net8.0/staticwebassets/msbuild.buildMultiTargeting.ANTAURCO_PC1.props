@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ANTAURCO_PC1.props" />
+</Project>

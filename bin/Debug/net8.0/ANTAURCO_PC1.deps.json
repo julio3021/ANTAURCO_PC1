@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ANTAURCO_PC1/1.0.0": {
+        "runtime": {
+          "ANTAURCO_PC1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ANTAURCO_PC1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

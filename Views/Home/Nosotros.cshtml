@@ -1,0 +1,183 @@
+﻿@{
+    ViewData["Title"] = "Sobre Nosotros";
+}
+<div class="about-us-container">
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>@ViewData["Title"]</h1>
+            <p class="subtitle">Tu socio confiable para invertir en los mercados globales.</p>
+        </div>
+    </section>
+
+    <section class="mission-vision-values">
+        <div class="content-wrapper">
+            <div class="mission">
+                <h2>Nuestra Misión</h2>
+                <p>En Guevara-Corp, empoderamos a nuestros clientes para alcanzar sus metas financieras invirtiendo de manera inteligente y segura en los mercados bursátiles.</p>
+            </div>
+            <div class="vision">
+                <h2>Nuestra Visión</h2>
+                <p>Convertirnos en el líder global en soluciones de inversión, guiando a nuestros clientes hacia la independencia financiera.</p>
+            </div>
+            <div class="values">
+                <h2>Nuestros Valores</h2>
+                <ul>
+                    <li>Integridad: Operamos con transparencia y ética en todas nuestras decisiones.</li>
+                    <li>Innovación: Adaptamos nuestras estrategias para maximizar el rendimiento en un entorno financiero en constante cambio.</li>
+                    <li>Confianza: Construimos relaciones a largo plazo basadas en la seguridad y el éxito mutuo.</li>
+                    <li>Responsabilidad: Nos comprometemos a ofrecer soluciones de inversión responsables y sostenibles.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <h2>Conoce a Nuestro Equipo</h2>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="https://admision.up.edu.pe/blog/wp-content/uploads/2022/05/Daniela-Tagle-768x512-1.jpg" alt="CEO">
+                <h3>Juana Peralta</h3>
+                <p>CEO & Fundadora</p>
+            </div>
+            <div class="team-member">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsBdT2kDr61zDi8ON7vj1V1S_Hefuom4rn8tG7XIntrOE-kDHfVZgvEgBG2bQWYrNPU0&usqp=CAUs" alt="CFO">
+                <h3>Julio Almada</h3>
+                <p>Director Financiero</p>
+            </div>
+            <div class="team-member">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvn9_CbBdsVTwtsE27Om_gOGNlEBr_81pZ362owHcFDeZsrfwxiSCjHFTiXHnGdSGiXo8&usqp=CAU" alt="CTO">
+                <h3>Andrea Perez</h3>
+                <p>Directora de Tecnología</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="history-section">
+        <h2>Nuestra Historia</h2>
+        <p>Desde nuestra fundación en 2012, Guevara-Corp ha guiado a miles de inversores hacia el éxito en los mercados bursátiles, construyendo un legado de confianza y resultados positivos. Nuestra pasión por la inversión nos ha permitido destacarnos como uno de los líderes en el sector.</p>
+    </section>
+</div>
+
+<style>
+    .about-us-container {
+        font-family: 'Helvetica Neue', sans-serif;
+        color: #2c3e50;
+        line-height: 1.7;
+    }
+
+    .hero-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://www.obsbusiness.school/sites/obsbusiness.school/files/images/trabajo-en-equipo.jpg") center/cover no-repeat;
+        padding: 100px 20px;
+        color: #ecf0f1;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 60px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .subtitle {
+        font-size: 28px;
+        margin-bottom: 50px;
+        font-weight: 300;
+    }
+
+    .mission-vision-values {
+        background: #ecf0f1;
+        padding: 80px 20px;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .mission-vision-values h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+        color: #2980b9;
+    }
+
+    .content-wrapper {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .content-wrapper > div {
+        max-width: 28%;
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .team-section {
+        padding: 80px 20px;
+        text-align: center;
+        background: #2c3e50;
+        color: #ecf0f1;
+    }
+
+    .team-section h2 {
+        font-size: 32px;
+        margin-bottom: 50px;
+        color: #e74c3c;
+    }
+
+    .team-grid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .team-member {
+        background: #34495e;
+        padding: 30px;
+        border-radius: 12px;
+        max-width: 25%;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .team-member img {
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border: 4px solid #e74c3c;
+    }
+
+    .team-member h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        color: #ecf0f1;
+    }
+
+    .team-member p {
+        font-size: 18px;
+        color: #bdc3c7;
+    }
+
+    .history-section {
+        background: #ecf0f1;
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    .history-section h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+        color: #2980b9;
+    }
+
+    .history-section p {
+        font-size: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        color: #7f8c8d;
+    }
+</style>
+
