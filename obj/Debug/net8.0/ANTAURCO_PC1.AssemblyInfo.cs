@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ANTAURCO_PC1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0318ac6e66971356123ae19148a69e67b710f97a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b4ac9e409babe3a87fa22e7b846b9d829052cba")]
 [assembly: System.Reflection.AssemblyProductAttribute("ANTAURCO_PC1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ANTAURCO_PC1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
