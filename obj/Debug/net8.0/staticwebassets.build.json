@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r+IXwO2AANZrtNGmFhwbB1RGX4XW+VjarBn5rdbbJm0=",
+  "Hash": "fZlVwG151V2x4Jz5piCbl6Q1P9g0VlcLgOCoQi6iolw=",
   "Source": "ANTAURCO_PC1",
   "BasePath": "_content/ANTAURCO_PC1",
   "Mode": "Default",
@@ -91,25 +91,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\ACER\\Desktop\\ANTAURCO_PC1\\wwwroot\\js\\boton.js",
-      "SourceId": "ANTAURCO_PC1",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ACER\\Desktop\\ANTAURCO_PC1\\wwwroot\\",
-      "BasePath": "_content/ANTAURCO_PC1",
-      "RelativePath": "js/boton.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\boton.js"
     },
     {
       "Identity": "C:\\Users\\ACER\\Desktop\\ANTAURCO_PC1\\wwwroot\\js\\carrusel.js",

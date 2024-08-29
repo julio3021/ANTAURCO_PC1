@@ -28,4 +28,3 @@ C:\Users\ACER\Desktop\ANTAURCO_PC1\obj\Debug\net8.0\refint\ANTAURCO_PC1.dll
 C:\Users\ACER\Desktop\ANTAURCO_PC1\obj\Debug\net8.0\ANTAURCO_PC1.pdb
 C:\Users\ACER\Desktop\ANTAURCO_PC1\obj\Debug\net8.0\ANTAURCO_PC1.genruntimeconfig.cache
 C:\Users\ACER\Desktop\ANTAURCO_PC1\obj\Debug\net8.0\ref\ANTAURCO_PC1.dll
-C:\Users\ACER\Desktop\ANTAURCO_PC1\obj\Debug\net8.0\ANTAURCO_PC1.sourcelink.json
